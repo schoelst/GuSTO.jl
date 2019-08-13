@@ -1,9 +1,10 @@
+using Test
 using GuSTO
-@static if VERSION < v"0.7.0-DEV.2005"
-    using Base.Test
-else
-    using Test
-end
 
-# write your own tests here
-@test 1 == 2
+# run Examples
+@testset "Examples" begin
+#   include("../examples/airplane.ipynb")
+#   include("../examples/astrobeeSE3.ipynb")
+#   include("../examples/dubins_car.ipynb")
+#   include("../examples/freeflyerSE2.ipynb")
+end
